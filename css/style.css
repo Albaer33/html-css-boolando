@@ -22,7 +22,9 @@ img {
 .product:hover .imghide{
     display: inline-block;
 }
-
+.row {
+    margin: 50px 0;
+}
 /* illustration*/
 .illustration {
     position: relative;
