@@ -18,8 +18,21 @@ img {
     width: 32%;
     display: inline-block;
 }
+
+.product:hover .imghide{
+    display: inline-block;
+}
+
+/* illustration*/
 .illustration {
     position: relative;
+}
+.imghide {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    display: none;
+
 }
 .heart {
     position: absolute;
@@ -49,4 +62,20 @@ img {
     background-color: darkgreen;
     left: 50px;
     bottom: 20px;
+}
+/* product info */
+.brand {
+    font-size: 14px;
+}
+.title {
+    font-weight: 700;
+}
+.cost {
+    font-size: 14px;
+}
+.new {
+    color: red;
+}
+.old {
+    text-decoration: line-through;
 }
