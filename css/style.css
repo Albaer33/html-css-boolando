@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* COMMON */
+.container {
+    font-family: Arial;
+    width: 70%;
+    margin: auto;
+}
+img {
+    width: 100%;
+}
+/* PRODUCT LIST */
+.product {
+    padding: 10px;
+    width: 32%;
+    display: inline-block;
+}
+.illustration {
+    position: relative;
+}
+.heart {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 0;
+    padding-top: 6px;
+}
+.sales {
+    padding: 2px 5px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    background-color: darkred;
+    bottom: 20px;
+    left: 0;
+}
+.eco {
+    padding: 2px 5px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    background-color: darkgreen;
+    left: 50px;
+    bottom: 20px;
+}
